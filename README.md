@@ -7,3 +7,7 @@ Results Display
 2. Temp table
 
 ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/5d47267d-0f92-456b-bed9-452eedc3bbc5)
+
+3. Substrings + Use cases
+
+   ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/225230f1-e1d5-4159-a829-b3ebd8a24001)
