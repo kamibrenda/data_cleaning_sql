@@ -15,12 +15,20 @@ WITH duplicate_cte AS
 (
 SELECT *,
 ROW_NUMBER() OVER 
-(PARTITION BY company, industry, total_laid_off, percentage_laid_off, [date] ORDER BY (SELECT NULL)) AS row_num
+(PARTITION BY company,location,
+industry, total_laid_off, percentage_laid_off, [date],stage,
+country, funds_raised_millions
+ORDER BY (SELECT NULL)) AS row_num
 FROM Layoffs_staging
 )
-SELECT *
-FROM duplicate_cte
-WHERE row_num > 1;
+--DELETE
+--FROM duplicate_cte
+--WHERE row_num > 1;
+
+
+--SELECT *
+--FROM Layoffs_staging
+--WHERE company = 'Yahoo';
 
 --Standardising the data
 
