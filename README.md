@@ -1,4 +1,26 @@
-Results Display
+# Data Cleaning Project with SQL
+## Objectives 
+1.Removing Duplicates
+2.Standardising the data
+3.Evaluating Null or blank values 
+4.Removing any unecessary columns 
+
+## Results 
+1. Display of duplicate records in the table.
+   
+![image](https://github.com/kamibrenda/sql-tut/assets/42267047/dce6a4d9-983d-4647-a4f1-dd3973b18b5e)
+
+
+
+
+
+
+
+
+
+
+
+## Results Display
 1. Partition By results
    
 ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/07bb5504-632a-4d8c-80ab-0df336554d57)
