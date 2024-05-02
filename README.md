@@ -1,7 +1,7 @@
 # Data Cleaning Project with SQL
 ## Objectives 
-1. Removing Duplicates
-2. Standardising the data
+1. Removing Duplicates - Dealing with redundant data by eliminating them
+2. Standardising the data - finding issues in the data and fixing it such as use of different names to identify the same thing i.e 'Crypto' and 'Cryptocurrency'
 3. Evaluating Null or blank values
 4. Removing any unecessary columns 
 
@@ -9,6 +9,9 @@
 1. Display of duplicate records in the table.
    
 ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/dce6a4d9-983d-4647-a4f1-dd3973b18b5e)
+
+2.Display of new column with trimmed function to emove white spaces in front and back
+
 
 
 
