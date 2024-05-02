@@ -59,7 +59,7 @@ FROM Layoffs_staging
 
 
 
---Standardising the data
+
 
 --evaluating Null or blank values 
 
