@@ -1,9 +1,9 @@
 # Data Cleaning Project with SQL
 ## Objectives 
-1.Removing Duplicates
-2.Standardising the data
-3.Evaluating Null or blank values 
-4.Removing any unecessary columns 
+1. Removing Duplicates
+2. Standardising the data
+3. Evaluating Null or blank values
+4. Removing any unecessary columns 
 
 ## Results 
 1. Display of duplicate records in the table.
