@@ -11,6 +11,7 @@
 ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/dce6a4d9-983d-4647-a4f1-dd3973b18b5e)
 
 2.Standardising of columns i.e Country column
+
 ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/dc4865aa-46a3-4f54-966e-11f3b0f1544c)
 
 
