@@ -29,13 +29,25 @@
 
 
 --standardising the country column 
---SELECT DISTINCT country
+--SELECT *
+--FROM Layoffs_staging2
+--WHERE company LIKE 'United States%'
+--ORDER BY 1
+
+--SELECT DISTINCT country, TRIM(TRAILING '.' FROM country)  --TO REMOVE WHITESPACE AND PERIOD
 --FROM Layoffs_staging2
 --ORDER BY 1
 
+--UPDATE Layoffs_staging2  --To save the country column without period and white space
+--SET country = TRIM(TRAILING '.' FROM country)
+--WHERE country LIKE 'United States%'
 
-SELECT DISTINCT country, TRIM(TRAILING '.'FROM country) AS Fixed_Country
+
+--to change the date column type from nvarchar to date
+SELECT date
 FROM Layoffs_staging2
---GROUP BY industry
-WHERE country LIKE 'United States%'
-ORDER BY 1
+
+
+--SELECT [date] AS 'OriginalString',
+--       CONVERT(DATE, [date], 101) AS 'ConvertedDate'
+--FROM Layoffs_staging2;
