@@ -10,8 +10,14 @@
    
 ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/dce6a4d9-983d-4647-a4f1-dd3973b18b5e)
 
-2.Standardising of columns i.e Country column
+2. Standardising of columns i.e Country column
+   
+2.a
 ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/dc4865aa-46a3-4f54-966e-11f3b0f1544c)
+
+2.b 
+![image](https://github.com/kamibrenda/sql-tut/assets/42267047/288cc562-4a05-4f90-a747-ff6b67ce9996)
+
 
 
 
