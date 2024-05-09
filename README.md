@@ -16,7 +16,9 @@
 ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/dc4865aa-46a3-4f54-966e-11f3b0f1544c)
 
 2.b 
-![image](https://github.com/kamibrenda/sql-tut/assets/42267047/288cc562-4a05-4f90-a747-ff6b67ce9996)
+![image](https://github.com/kamibrenda/sql-tut/assets/42267047/ce8a3d67-f508-4b09-9399-8ec4784c25e0)
+
+
 
 
 
