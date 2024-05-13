@@ -8,18 +8,19 @@
 ## Results 
 1. Display of duplicate records in the table
    
-   Dealing with redundant data which is demonstrated by the row number indicating the same record occurs more than once and thus dealt with by eliminating them   
+   Dealing with redundant data which is demonstrated by the row number indicating the same record occurs more than once and thus dealt with by eliminating them
+   
    ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/dce6a4d9-983d-4647-a4f1-dd3973b18b5e)
 
-2. Standardising of columns
+3. Standardising of columns
      
    Finding issues in the data and fixing it such as changing the date and time format to 'YYYY-MM-DD'
 
    ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/b8006322-fb9c-4a6b-86e6-7c7b1502910e)
 
-3. Evaluating Null or blank values
+4. Evaluating Null or blank values
    
-   Removing null columns and blank values in the staged data specifically.
+   Removing null columns and blank values in the staged data for which has been demonstrated by the industry column below.
 
    ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/b70c3236-c709-455e-b73b-8acbc19a31b8)
 
@@ -45,7 +46,7 @@
 ## Results Display
 1. Partition By results
    
-![image](https://github.com/kamibrenda/sql-tut/assets/42267047/68eea029-1ef7-4916-90d4-a2af919ee343)
+   ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/68eea029-1ef7-4916-90d4-a2af919ee343)
 
 3. Substrings + Use cases
 
