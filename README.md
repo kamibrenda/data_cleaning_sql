@@ -22,7 +22,8 @@
    
    Removing null columns and blank values in the staged data for which has been demonstrated by the industry column below.
 
-   ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/b70c3236-c709-455e-b73b-8acbc19a31b8)
+![image](https://github.com/kamibrenda/sql-tut/assets/42267047/215d1014-6f84-4ef9-8ff2-6f3eb0e1cac0)
+
 
    
 
