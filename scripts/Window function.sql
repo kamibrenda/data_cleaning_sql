@@ -58,3 +58,4 @@ DENSE_RANK() OVER(PARTITION BY gender ORDER BY Salary DESC) as dense_rank_num
  FROM dbo.EmployeeDemographics dem --
  JOIN dbo.EmployeeSalary sal 
 	ON dem.EmployeeID = sal.EmployeeID
+	
