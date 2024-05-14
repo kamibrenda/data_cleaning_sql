@@ -27,5 +27,5 @@ SET t1.industry = t2.industry
 FROM Layoffs_staging2 t1
 JOIN Layoffs_staging2 t2 ON t1.company = t2.company
 WHERE t1.industry IS NULL
-  AND t2.industry IS NOT NULL;
+  AND t2.industry IS NOT NULL; 
 
