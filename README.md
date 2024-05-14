@@ -25,6 +25,7 @@
 ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/215d1014-6f84-4ef9-8ff2-6f3eb0e1cac0)
 
 
+
    
 
 
@@ -49,11 +50,18 @@
    
    ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/68eea029-1ef7-4916-90d4-a2af919ee343)
 
-3. Substrings + Use cases
+2. Substrings + Use cases
 
    ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/0f754817-eb25-4e80-9dce-846227f06b01)
 
    *with Fuzzymatch*
 
    ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/8b31047e-9ce0-476c-9109-35b4f0f2f188)
+
+3. Window Functions vs Group By
+   
+   ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/5dd99d8c-6eb3-4ff7-87d9-84e19e7fc1ee)
+
+
+
 
