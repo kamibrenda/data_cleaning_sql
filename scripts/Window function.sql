@@ -36,8 +36,25 @@
 --	ON dem.EmployeeID = sal.EmployeeID
 
 --with row number using partition by 
+-- SELECT dem.EmployeeID,dem.FirstName,dem.LastName, gender,salary, --numbers assigned uniquely within the partition regardless if duplicate or not
+--ROW_NUMBER() OVER(PARTITION BY gender ORDER BY Salary DESC) AS row_num--ranking from highest salary to lowest in gender
+-- FROM dbo.EmployeeDemographics dem
+-- JOIN dbo.EmployeeSalary sal 
+--	ON dem.EmployeeID = sal.EmployeeID
+
+--with rank
+-- SELECT dem.EmployeeID,dem.FirstName,dem.LastName, gender,salary,
+--ROW_NUMBER() OVER(PARTITION BY gender ORDER BY Salary DESC) AS row_num,
+--RANK() OVER(PARTITION BY gender ORDER BY Salary DESC) as Rank_num --if duplicates are noted the numbers are given the same number as they are assigned as per position  
+-- FROM dbo.EmployeeDemographics dem --can have 2 number 5s but skips number 6 and goes to 7 if salary is same
+-- JOIN dbo.EmployeeSalary sal 
+--	ON dem.EmployeeID = sal.EmployeeID
+
+--with dense rank
  SELECT dem.EmployeeID,dem.FirstName,dem.LastName, gender,salary,
-ROW_NUMBER() OVER(PARTITION BY gender(ORDER BY gender)) AS RowNumber --comparison with gender
- FROM dbo.EmployeeDemographics dem
- JOIN dbo.EmployeeSalary sal
+ROW_NUMBER() OVER(PARTITION BY gender ORDER BY Salary DESC) AS row_num,
+RANK() OVER(PARTITION BY gender ORDER BY Salary DESC) as rank_num, --f duplicates exists the numbers are given the same number as above with row_rank but are assigned numerically not positionally 
+DENSE_RANK() OVER(PARTITION BY gender ORDER BY Salary DESC) as dense_rank_num 
+ FROM dbo.EmployeeDemographics dem --
+ JOIN dbo.EmployeeSalary sal 
 	ON dem.EmployeeID = sal.EmployeeID
