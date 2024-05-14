@@ -62,6 +62,17 @@
    
    ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/5dd99d8c-6eb3-4ff7-87d9-84e19e7fc1ee)
 
+   *with rolling total*
+   
+   Starts at a specific value and adds on values from subsequent rows based on the partitions. In this case the starting point is Pam's salary which is conseuently added to Angela's salary to get the 83k and so forth till the final value of 124k.
+   This is partitioned by the unique value of gender in male vs female hence from Jim starts at 45k and the rule applies to get the final value of 313k.
+
+   ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/65d83f2e-acb5-4c4f-b22e-71a894c0d192)
+
+   *with row_num, rank and dense_rank*
+
+   ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/d43df223-de42-4386-a87b-0f0694bff6ba)
+
 
 
 
