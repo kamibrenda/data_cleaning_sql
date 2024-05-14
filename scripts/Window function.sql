@@ -21,9 +21,23 @@
  --JOIN dbo.EmployeeSalary sal
 	--ON dem.EmployeeID = sal.EmployeeID
 
---with sum using rolling basis
- SELECT dem.FirstName,dem.LastName, gender,
- SUM(Salary) over(PARTITION BY gender ORDER BY dem.EmployeeID) AS Rolling_Total --demonstrate totals made by individual genders 
+----with sum using rolling basis
+-- SELECT dem.FirstName,dem.LastName, gender,salary,
+-- SUM(Salary) over(PARTITION BY gender ORDER BY dem.EmployeeID) AS Rolling_Total --demonstrate totals made by individual genders 
+-- FROM dbo.EmployeeDemographics dem
+-- JOIN dbo.EmployeeSalary sal
+--	ON dem.EmployeeID = sal.EmployeeID
+
+--with row number
+-- SELECT dem.EmployeeID,dem.FirstName,dem.LastName, gender,salary,
+--ROW_NUMBER() OVER(ORDER BY dem.FirstName, dem.LastName, gender, salary) AS RowNumber --comparison with all columns 
+-- FROM dbo.EmployeeDemographics dem
+-- JOIN dbo.EmployeeSalary sal
+--	ON dem.EmployeeID = sal.EmployeeID
+
+--with row number using partition by 
+ SELECT dem.EmployeeID,dem.FirstName,dem.LastName, gender,salary,
+ROW_NUMBER() OVER(PARTITION BY gender(ORDER BY gender)) AS RowNumber --comparison with gender
  FROM dbo.EmployeeDemographics dem
  JOIN dbo.EmployeeSalary sal
 	ON dem.EmployeeID = sal.EmployeeID
