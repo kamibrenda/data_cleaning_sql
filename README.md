@@ -3,7 +3,7 @@
 1. Removing Duplicates 
 2. Standardising the data 
 3. Evaluating Null or blank values
-4. Removing any unecessary columns 
+4. Removing any unnecessary columns 
 
 ## Results 
 1. Display of duplicate records in the table
@@ -12,13 +12,13 @@
    
    ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/dce6a4d9-983d-4647-a4f1-dd3973b18b5e)
 
-3. Standardising of columns
+2. Standardising the data 
      
    Finding issues in the data and fixing it such as changing the date and time format to 'YYYY-MM-DD'
 
    ![image](https://github.com/kamibrenda/sql-tut/assets/42267047/b8006322-fb9c-4a6b-86e6-7c7b1502910e)
 
-4. Evaluating Null or blank values
+3. Evaluating Null or blank values
    
    Removing null columns and blank values in the staged data for which has been demonstrated by the industry column below.
 
